@@ -1,19 +1,17 @@
 import jwt from 'jsonwebtoken';
 
 export const verificarToken = (req, res, next) => {
-  const tokenHeader = req.headers['authorization'];
+  const [esquema, token] = (req.headers.authorization || '').split(' ');
 
-  if (!tokenHeader) {
-    return res.status(403).json({ mensaje: 'Acceso denegado: Token no proporcionado' });
+  if (esquema !== 'Bearer' || !token) {
+    return res.status(401).json({ exito: false, mensaje: 'Acceso denegado: token no proporcionado' });
   }
 
-  const token = tokenHeader.split(' ')[1]; // Formato 'Bearer TOKEN'
-
   try {
-    const verificado = jwt.verify(token, process.env.JWT_SECRET);
-    req.usuario = verificado;
+    const payload = jwt.verify(token, process.env.JWT_SECRET);
+    req.usuario = { id: payload.id, alias: payload.alias, email: payload.email };
     next();
-  } catch (error) {
-    res.status(401).json({ mensaje: 'Token inválido o expirado' });
+  } catch {
+    res.status(401).json({ exito: false, mensaje: 'Token inválido o expirado' });
   }
 };
