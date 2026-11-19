@@ -1,0 +1,44 @@
+/* ============================================================
+   StudySafe · estilos de formularios (CSS básico)
+   Se importa desde los componentes que tienen formularios.
+   ============================================================ */
+
+.campo { margin-top: 1rem; }
+.campo__etiqueta { display: block; margin-bottom: 0.25rem; font-weight: 600; }
+.campo__ayuda { margin-top: 0.25rem; font-size: 0.875rem; color: var(--suave); }
+.campo__error { margin-top: 0.25rem; font-size: 0.875rem; font-weight: 500; color: var(--peligro); }
+.campo--error .input { border-color: #dc2626; }
+
+.input {
+  display: block; width: 100%; padding: 0.5rem 0.75rem;
+  border: 1px solid var(--borde-fuerte); border-radius: 8px; background: var(--blanco);
+  color: inherit; font: inherit;
+}
+.input::placeholder { color: #94a3b8; }
+textarea.input { min-height: 5rem; resize: vertical; }
+
+.formulario-2col { display: grid; grid-template-columns: 1fr; column-gap: 1rem; }
+@media (min-width: 640px) { .formulario-2col { grid-template-columns: 1fr 1fr; } }
+
+/* Grupos de campos (cómo entregas el material / imágenes) */
+.grupo { margin: 1.5rem 0 0; padding: 1rem; border: 1px solid var(--borde); border-radius: var(--radio); }
+.grupo + .grupo { margin-top: 1rem; }
+.grupo legend { padding: 0 0.5rem; font-weight: 600; }
+.grupo__texto { font-size: 0.875rem; color: var(--suave); }
+
+/* Selector de archivos: el <input type="file"> va oculto y la etiqueta hace de botón */
+.archivo-boton {
+  display: inline-block; padding: 0.5rem 1rem; border: 1px solid var(--ink); border-radius: 8px;
+  background: var(--blanco); color: var(--ink); font-weight: 600; cursor: pointer;
+}
+.archivo-boton:hover { background: #f8fafc; }
+.archivo-boton:focus-within { outline: 2px solid var(--ink); }
+.archivo-nombre { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
+
+.miniaturas { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.miniatura { position: relative; margin: 0; }
+.miniatura img { display: block; width: 9rem; height: 6rem; border: 1px solid var(--borde); border-radius: 8px; object-fit: cover; }
+.miniatura__quitar {
+  position: absolute; top: -8px; right: -8px; width: 24px; height: 24px; padding: 0;
+  border: 0; border-radius: 50%; background: var(--peligro); color: #fff; font-weight: 700; line-height: 24px; cursor: pointer;
+}
