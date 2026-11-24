@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "6b04eccf83aa38628379b127"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "tipo": "recarga",
+  "monto": 15000,
+  "descripcion": "Recarga solicitada y aprobada por el administrador",
+  "realizadaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T01:47:59.613Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:47:59.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04ee1783aa38628379b2ac"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "tipo": "recarga",
+  "monto": 12000,
+  "descripcion": "Recarga solicitada y aprobada por el administrador",
+  "realizadaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T01:53:27.104Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:53:27.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04ee2983aa38628379b2d9"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "tipo": "compra",
+  "monto": -8000,
+  "descripcion": "Compra: guia bases de datos avanzadas",
+  "createdAt": {
+    "$date": "2026-11-24T01:53:45.321Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:53:45.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04ee2983aa38628379b2da"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "tipo": "recompensa",
+  "monto": 8000,
+  "descripcion": "Venta: guia bases de datos avanzadas",
+  "createdAt": {
+    "$date": "2026-11-24T01:53:45.321Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:53:45.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04fdfd5955a3450e5a101d"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "tipo": "recarga",
+  "monto": 15000,
+  "descripcion": "Recarga solicitada y aprobada por el administrador",
+  "realizadaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T03:01:17.053Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:01:17.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04ff2a5955a3450e5a115e"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "tipo": "recarga",
+  "monto": 12000,
+  "descripcion": "Recarga solicitada y aprobada por el administrador",
+  "realizadaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T03:06:18.394Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:06:18.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04ff2f5955a3450e5a1177"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "tipo": "compra",
+  "monto": -16000,
+  "descripcion": "Compra: taller redes vlans",
+  "createdAt": {
+    "$date": "2026-11-24T03:06:23.230Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:06:23.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04ff2f5955a3450e5a1178"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "tipo": "recompensa",
+  "monto": 16000,
+  "descripcion": "Venta: taller redes vlans",
+  "createdAt": {
+    "$date": "2026-11-24T03:06:23.230Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:06:23.230Z"
+  },
+  "__v": 0
+}]

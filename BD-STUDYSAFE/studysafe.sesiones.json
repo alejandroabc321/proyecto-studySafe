@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "6b04ec1983aa38628379ae79"
+  },
+  "usuario": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  },
+  "familia": "68494cda-bba1-4481-96ec-85acfdd97a68",
+  "tokenHash": "84f9968ac3fe5ffaa0a9a8cd2fc80f0aa13a3a0596058bf14d1d7accb9df9458",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.147.0 Chrome/150.0.7871.250 Electron/43.8.9 Safari/537.36",
+  "expiraEn": {
+    "$date": "2026-12-01T03:10:22.166Z"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T01:44:57.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:10:22.167Z"
+  },
+  "__v": 0,
+  "rotadoEn": {
+    "$date": "2026-11-24T03:10:22.167Z"
+  },
+  "tokenHashAnterior": "2fe1372c05df4b8fbae48ffb282e535c283dffa7d187ff58c3fdb82fe7314ac4"
+},
+{
+  "_id": {
+    "$oid": "6b04ef6083aa38628379b3eb"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "familia": "080a417e-b533-4eef-89b5-d6751827b7c2",
+  "tokenHash": "fd8ddb1d432d3d422901bc5411d00860a26d2bc482df3caba2f90e7c7ad62dc2",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "expiraEn": {
+    "$date": "2026-12-01T02:21:22.182Z"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T01:58:56.293Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T02:21:22.183Z"
+  },
+  "__v": 0,
+  "rotadoEn": {
+    "$date": "2026-11-24T02:21:22.182Z"
+  },
+  "tokenHashAnterior": "adec3e7440148cf3465f60160b41cfa9eb5fa35240c185028e5ce16127e08f56"
+},
+{
+  "_id": {
+    "$oid": "6b04feee5955a3450e5a10c2"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "familia": "4138fa95-0c1e-413e-ba71-0194c7c36766",
+  "tokenHash": "fced10bef8f4b76afad4a62fb6ad1491cbc73183995abdf0025dcd80eabbd806",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "expiraEn": {
+    "$date": "2026-12-01T03:05:39.757Z"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T03:05:18.577Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:05:39.757Z"
+  },
+  "__v": 0,
+  "rotadoEn": {
+    "$date": "2026-11-24T03:05:39.757Z"
+  },
+  "tokenHashAnterior": "1f739f95b2aad4ea57f1f776d1b7d6162ae515c43fbbded5203deedaa128f22e"
+}]

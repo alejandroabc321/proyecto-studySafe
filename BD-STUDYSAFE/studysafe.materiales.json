@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6b04ed7883aa38628379b1db"
+  },
+  "titulo": "guia bases de datos avanzadas",
+  "descripcion": "bases de datos avanzadas mongo",
+  "materia": "bases de datos avanzadas",
+  "profesor": "Diego Fernando Prado",
+  "tipo": "Guia",
+  "precio": 8000,
+  "archivo": {
+    "nombre_original": "Guia_CRUD_React_Vite_CSS.docx",
+    "nombre_guardado": "56fe486e-111a-4f04-8380-0ed42c603b20.docx",
+    "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "tamano": 14066
+  },
+  "previews": [
+    "ce6a7818-5e12-4bde-a240-6c4356e1925a.png",
+    "c22f3713-c2a6-46f4-af19-c4c366146859.jpg"
+  ],
+  "autor": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "descargas": 1,
+  "createdAt": {
+    "$date": "2026-11-24T01:50:48.505Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:53:45.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04fe845955a3450e5a1089"
+  },
+  "titulo": "taller redes vlans",
+  "descripcion": "vlans en una sola red",
+  "materia": "redes de la computacion",
+  "profesor": "Victor Hugo Guacheta",
+  "tipo": "Taller",
+  "precio": 16000,
+  "archivo": {
+    "nombre_original": "proyecto tercer corte.docx",
+    "nombre_guardado": "d9274c3d-0890-4564-8ee3-bc079c83c88e.docx",
+    "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "tamano": 39280
+  },
+  "previews": [
+    "ffa66acf-5264-40c1-a0d4-3cde3b8e1182.png",
+    "79904310-ceb9-42c5-9cbd-228875a08883.png"
+  ],
+  "autor": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "descargas": 1,
+  "createdAt": {
+    "$date": "2026-11-24T03:03:32.122Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:06:23.231Z"
+  },
+  "__v": 0
+}]

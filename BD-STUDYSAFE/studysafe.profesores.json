@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6b04ed7883aa38628379b1dd"
+  },
+  "nombre": "Diego Fernando Prado",
+  "facultad": "Por definir",
+  "materia": "bases de datos avanzadas",
+  "calificacion_promedio": 0,
+  "total_resenas": 0,
+  "creadoPor": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T01:50:48.507Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:50:48.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6b04fe845955a3450e5a108b"
+  },
+  "nombre": "Victor Hugo Guacheta",
+  "facultad": "Por definir",
+  "materia": "redes de la computacion",
+  "calificacion_promedio": 0,
+  "total_resenas": 0,
+  "creadoPor": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "createdAt": {
+    "$date": "2026-11-24T03:03:32.123Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:03:32.123Z"
+  },
+  "__v": 0
+}]

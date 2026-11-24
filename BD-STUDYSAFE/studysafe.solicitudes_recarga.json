@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6b04ecba83aa38628379b087"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "monto": 15000,
+  "nota": "pague en efectivo al admin",
+  "estado": "aprobada",
+  "createdAt": {
+    "$date": "2026-11-24T01:47:38.841Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:47:59.610Z"
+  },
+  "__v": 0,
+  "resueltaEn": {
+    "$date": "2026-11-24T01:47:59.610Z"
+  },
+  "resueltaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04ee0c83aa38628379b260"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "monto": 12000,
+  "nota": "pago por nequi",
+  "estado": "aprobada",
+  "createdAt": {
+    "$date": "2026-11-24T01:53:16.428Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T01:53:27.102Z"
+  },
+  "__v": 0,
+  "resueltaEn": {
+    "$date": "2026-11-24T01:53:27.102Z"
+  },
+  "resueltaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04fded5955a3450e5a0fd9"
+  },
+  "usuario": {
+    "$oid": "6b04eb2c304ec9539c6e0974"
+  },
+  "monto": 15000,
+  "nota": "pago en efectivo",
+  "estado": "aprobada",
+  "createdAt": {
+    "$date": "2026-11-24T03:01:01.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:01:17.048Z"
+  },
+  "__v": 0,
+  "resueltaEn": {
+    "$date": "2026-11-24T03:01:17.048Z"
+  },
+  "resueltaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04ff1e5955a3450e5a1104"
+  },
+  "usuario": {
+    "$oid": "6b04edc883aa38628379b217"
+  },
+  "monto": 12000,
+  "nota": "pago despues",
+  "estado": "aprobada",
+  "createdAt": {
+    "$date": "2026-11-24T03:06:06.316Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-24T03:06:18.392Z"
+  },
+  "__v": 0,
+  "resueltaEn": {
+    "$date": "2026-11-24T03:06:18.392Z"
+  },
+  "resueltaPor": {
+    "$oid": "6b04ebf8e865e5f40eca8e79"
+  }
+}]
